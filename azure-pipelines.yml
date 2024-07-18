@@ -20,12 +20,12 @@ stages:
     - job: Dev2
       steps:
       - bash: echo Dev Second Job
-- stage: QA Deploy
+- stage: QA_Deploy
   jobs:
-    - job: QA Job
+    - job: QAJob
       steps:
       - bash: echo QA First Job
-- stage: Production Deploy
+- stage: Production_Deploy
   jobs:
     - job: ProductionsJob
       steps:
